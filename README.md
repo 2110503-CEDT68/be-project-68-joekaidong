@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/iG82Gnyy)
-=======
+
 # Project 1: Hotel Booking
 
 ## Non-Functional Requirements
@@ -29,28 +29,3 @@ name, address, and telephone number.
 7. The system shall allow the admin to view any hotel bookings.
 8. The system shall allow the admin to edit any hotel bookings.
 9. The system shall allow the admin to delete any hotel bookings.
-
-## Schema
-User: {
-        id: String,
-        name: String,
-        tel: String,
-        email: String,
-        password: String
-        role: String -> (admin/user)
-}
-
-Hotel: {
-        id: String
-        name: String,
-        address: String,
-        tel: String
-}
-
-Reservation: {
-        date: Date
-        hotel_id: String
-}
-
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/_xCBcc1c)
->>>>>>> b5ae60f (Intial Commit)
